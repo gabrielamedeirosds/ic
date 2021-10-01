@@ -19,7 +19,7 @@ class Tratamento extends StatelessWidget {
             child: Column(
               children: [
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -36,7 +36,7 @@ class Tratamento extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -44,6 +44,7 @@ class Tratamento extends StatelessWidget {
                     onPressed: () {},
                     child: const Text(
                       "Terapia de Ressincronização Cardíaca",
+                      textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 20,
                         color: Colors.white,
@@ -53,7 +54,7 @@ class Tratamento extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -70,7 +71,7 @@ class Tratamento extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -87,7 +88,7 @@ class Tratamento extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:

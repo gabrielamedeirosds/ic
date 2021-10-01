@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Classificao extends StatelessWidget {
-  const Classificao({Key? key}) : super(key: key);
+class Classificacao extends StatelessWidget {
+  const Classificacao({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -9,7 +9,10 @@ class Classificao extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text('Classificação'),
-        // actions: <Widget>[],
+        actions: [
+            IconButton(onPressed: () {}, icon: const Icon(Icons.search))
+          ],
+          centerTitle: true,
       ),
       body: SafeArea(
         child: LayoutBuilder(builder: (BuildContext, BoxConstraints) {
@@ -21,7 +24,7 @@ class Classificao extends StatelessWidget {
             child: Column(
               children: [
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -38,7 +41,7 @@ class Classificao extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -55,7 +58,7 @@ class Classificao extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -72,7 +75,7 @@ class Classificao extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:

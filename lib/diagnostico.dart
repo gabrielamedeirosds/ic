@@ -19,7 +19,7 @@ class Diagnostico extends StatelessWidget {
             child: Column(
               children: [
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -36,7 +36,7 @@ class Diagnostico extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -53,7 +53,7 @@ class Diagnostico extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -70,7 +70,7 @@ class Diagnostico extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
@@ -87,7 +87,7 @@ class Diagnostico extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  width: 200,
+                  width: 350,
                   child: ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
